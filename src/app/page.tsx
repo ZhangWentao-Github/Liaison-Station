@@ -56,7 +56,7 @@ export default function Home() {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 0.2 }}
               >
-                <Image src={profileImage} alt="futiwolf,LF112" className="size-64" priority />
+                <Image src={profileImage} alt="张文涛" className="size-64" priority />
               </motion.div>
             )}
           </AnimatePresence>
