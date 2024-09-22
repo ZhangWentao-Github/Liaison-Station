@@ -40,14 +40,14 @@ export const DetroitBackground: React.FC<IDetroitBackgroundProps> = () => {
       transition={{ duration: 0.2 }}
     >
       <Image
-        src={backgroundLeftImage}
+        src=https://bucket.zhang-wen-tao.com/background_left.webp /*{backgroundLeftImage}*/
         alt="ga_background_left"
         className="absolute !-left-20 !-top-8 h-[calc(100vh+4rem)] w-[35vw] max-sm:!-left-10 max-sm:object-cover max-sm:object-right"
         data-depth="0.2"
         onLoad={() => setIsLeftLoaded(true)}
       />
       <Image
-        src={backgroundRightImage}
+        src=https://bucket.zhang-wen-tao.com/background_right.webp /*{backgroundRightImage}*/
         alt="ga_background_left"
         className="absolute !-top-[2rem] !left-[26vw] h-[calc(100vh+5rem)] w-[80vw] max-sm:!left-[20vw] max-sm:object-cover max-sm:object-left"
         data-depth="0.3"
