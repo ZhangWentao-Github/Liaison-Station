@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'shadcn';
+@import 'utils';
+
+@layer base {
+  .futi-ui * {
+    @apply border-border text-gold-12 transition-colors;
+  }
+
+  body {
+    @apply bg-background font-sans text-foreground;
+  }
+}
+
+body {
+  background-blend-mode: overlay, normal;
+  @apply overflow-clip bg-darkBackground; // bg-[#eff4f9]
+}
+
+::selection {
+  //background-color: theme('colors.futi/0.15');
+  //@media (prefers-color-scheme: dark) {
+  background-color: theme('colors.futi/0.25');
+  //}
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-corner {
+  background-color: theme('colors.gray.8');
+}
+
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: theme('colors.gray.8');
+  opacity: 0.1;
+  transition: all 1s;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track {
+  background: transparent;
+}
