@@ -9,22 +9,22 @@ interface ILink {
 export const LINKS: ILink[] = [
   {
     Icon: SiGithub,
-    href: 'https://github.com/LF112',
+    href: '',
     label: 'Github',
   },
   {
     Icon: SiBilibili,
-    href: 'https://space.bilibili.com/131579371',
+    href: '',
     label: 'BiliBili',
   },
   {
     Icon: SiSteamdeck,
-    href: 'https://steamcommunity.com/id/LF112',
+    href: '',
     label: 'Steam',
   },
   {
     Icon: SiGmail,
-    href: 'mailto:lf@lf112.net',
+    href: 'mailto:mailbox@zhang-wen-tao.com',
     label: 'Email',
   },
 ];

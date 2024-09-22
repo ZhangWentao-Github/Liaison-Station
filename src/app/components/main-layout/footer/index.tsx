@@ -39,8 +39,8 @@ export const Footer: React.FC<IFooterProps> = ({ className, style }) => (
         <p>
           Copyright &copy; 2017 - {new Date().getFullYear()}
           <FTooltip text="🙃 Independent Websites Developer" sideOffset={16}>
-            <a className="mx-1" href="https://www.lf112.net">
-              LF112
+            <a className="mx-1" href="https://zhang-wen-tao.com">
+              张文涛
             </a>
           </FTooltip>
           All rights reserved.

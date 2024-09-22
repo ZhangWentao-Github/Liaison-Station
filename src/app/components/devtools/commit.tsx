@@ -10,13 +10,13 @@ const commitScript = (() => {
     '_  __/   / /_/ / _  /   __/ /',
     String.raw`/_/      \____/  /_/    /___/`,
     '⚡️ Written by TypeScript, Coding with Love.',
-    ' | Website: https://www.lf112.net',
-    ' | Github: https://github.com/LF112',
-    ' | E-Mail: lf@lf112.net',
+    ' | Website: https://zhang-wen-tao.com',
+    ' | Github: https://github.com/ZhangWentao-Github',
+    ' | E-Mail: mailbox@zhang-wen-tao.com',
     '',
   ].join('\n');
   console.log(
-    '\n %c \u26A1futi-detroit  %c https://www.lf112.net %c BY LF112 (@futiwolf) \n\n',
+    '\n %c \u26A1futi-detroit  %c https://zhang-wen-tao.com %c BY 张文涛-联络站 \n\n',
     'color:#fff;background:#0091e4;padding:5px 0;border-radius:4px 0 0 4px',
     'background:#323842;padding:5px 0',
     'color:#fff;background:#505050;padding:5px 0;border-radius:0 4px 4px 0',
