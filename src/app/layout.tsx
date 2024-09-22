@@ -13,12 +13,11 @@ import { TooltipProvider } from '@/app/components/ui/tooltip';
 import { cn } from '@/lib/utils';
 import { GeometosFont, interFont, kanitFont, MonaspaceNeonFont, russoOneFont, UbuntuFont } from '@/styles/font';
 import { TRPCReactProvider } from '@/trpc/react';
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
-  title: 'LF112「@futiwolf」',
-  description: "futiowlf's personal website, A NodeJS Fullstack Developer. | Front-end Developer / Blogger",
-  icons: [{ rel: 'icon', url: '/favicon.ico' }],
+  title: '张文涛-联络站',
+  description: "你在找张文涛吗？没错你来对了，这里正是他的个人联络站，在这里去探索那未知的海洋吧！",
+  icons: [{ rel: 'icon', url: 'https://bucket.zhang-wen-tao.com/logo.png' }],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
