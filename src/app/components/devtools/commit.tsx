@@ -16,7 +16,7 @@ const commitScript = (() => {
     '',
   ].join('\n');
   console.log(
-    '\n %c \u26A1futi-detroit  %c https://zhang-wen-tao.com %c BY 张文涛-联络站 \n\n',
+    '\n %c \u26A1张文涛-联络站  %c https://zhang-wen-tao.com %c BY 张文涛 \n\n',
     'color:#fff;background:#0091e4;padding:5px 0;border-radius:4px 0 0 4px',
     'background:#323842;padding:5px 0',
     'color:#fff;background:#505050;padding:5px 0;border-radius:0 4px 4px 0',
