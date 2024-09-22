@@ -17,7 +17,7 @@ import { TRPCReactProvider } from '@/trpc/react';
 export const metadata = {
   title: '张文涛-联络站',
   description: "你在找张文涛吗？没错你来对了，这里正是他的个人联络站，在这里去探索那未知的海洋吧！",
-  icons: [{ rel: 'icon', url: 'https://bucket.zhang-wen-tao.com/favicon.ico' }],
+  icons: [{ rel: 'icon', url: '/favicon.ico' }],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
