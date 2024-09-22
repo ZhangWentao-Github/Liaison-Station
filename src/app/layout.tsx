@@ -13,6 +13,7 @@ import { TooltipProvider } from '@/app/components/ui/tooltip';
 import { cn } from '@/lib/utils';
 import { GeometosFont, interFont, kanitFont, MonaspaceNeonFont, russoOneFont, UbuntuFont } from '@/styles/font';
 import { TRPCReactProvider } from '@/trpc/react';
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata = {
   title: 'LF112「@futiwolf」',
